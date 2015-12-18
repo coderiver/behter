@@ -31,6 +31,10 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { font-family: Roboto, sans-serif; font-size: 12px; line-height: 1.4; }
 
+a { color: #0049a4; }
+
+a:visited { color: #aa0bcc; }
+
 .out { max-width: 1400px; margin: 0 auto; padding-bottom: 14px; }
 
 .totop { font-size: 13px; color: #094ca1; text-decoration: none; margin-top: 108px; display: block; }
@@ -56,9 +60,10 @@ body { font-family: Roboto, sans-serif; font-size: 12px; line-height: 1.4; }
 .header .header__lang { position: absolute; bottom: 2px; right: 0; font-size: 13px; color: #bdbdbd; }
 .header .header__lang a { font-size: 13px; color: #bdbdbd; text-decoration: none; margin: 0 3px; }
 .header nav { font-size: 0; display: inline-block; vertical-align: baseline; }
-.header nav a { text-decoration: none; color: #094ca1; font-size: 14px; }
-.header nav a:hover { text-decoration: underline; }
-.header nav a:first-child { margin-right: 40px; }
+.header nav a, .header nav i { text-decoration: none; font-style: normal; color: #094ca1; font-size: 14px; }
+.header nav a:hover, .header nav i:hover { text-decoration: underline; }
+.header nav a:first-child, .header nav i:first-child { margin-right: 40px; }
+.header nav i:hover { text-decoration: none; }
 .header nav .nav__separator { font-size: 14px; color: #094ca1; margin: 0 3px; }
 
 .content { *zoom: 1; }
