@@ -76,9 +76,32 @@
 			+s(mail)
 			top: 3px
 			left: -21px
-
 .work
 	font-size: 15px
+	&.traditing
+		.work__col 
+			max-width: 762px
+			text-align: center
+		.work__banner
+			text-align: center
+			padding-top: 150px
+
+	&__text
+		max-width: 605px
+	&.work_alphabet
+		.work__pic
+			margin-top: 48px
+		.units
+			padding-top: 0
+		.unit
+			padding: 0
+			margin-bottom: 18px
+			display: block
+			width: auto
+			&:last-child
+				margin-bottom: 0
+			img 
+				width: auto
 	h1
 		font-size: 30px
 		font-weight: bold
@@ -88,6 +111,19 @@
 		img
 			max-width: 100%
 			display: block
+	.e-art
+		padding-bottom: 10px
+	.shadow
+		box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.1), inset 0 -11px 10px 0 rgba(0, 0, 0, 0.1)
+		border-radius: 10px
+		display: inline-block
+		overflow: hidden
+		&.is-mod
+			box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.4)
+	.shadow_m
+		margin: 0 -12px
+		+r(900)
+			margin: auto
 
 .header
 	padding-top: 25px
