@@ -180,6 +180,12 @@
 
 .content
 	+clr
+	&.content_special
+		margin-bottom: -30px
+		position: relative
+		.totop
+			position: absolute
+			bottom: 30px
 .content__left
 	width: 46%
 	float: left
@@ -252,6 +258,10 @@
 	text-align: center
 	text-decoration: none
 	margin-bottom: 63px
+	&:nth-child(5n)
+		margin-right: 0
+		+r(1320)
+			margin-right: 60px
 	&:visited
 		.item__title
 			color: #aa0bcc
