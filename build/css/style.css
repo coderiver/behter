@@ -67,7 +67,7 @@ a:visited { color: #aa0bcc; }
 .work .e-art { padding-bottom: 10px; }
 .work .shadow { -webkit-box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.1), inset 0 -11px 10px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 10px 24px 0px rgba(0, 0, 0, 0.1), inset 0 -11px 10px 0 rgba(0, 0, 0, 0.1); -webkit-border-radius: 10px; border-radius: 10px; display: inline-block; overflow: hidden; }
 .work .shadow.is-mod { -webkit-box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.4); box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.4); }
-.work .shadow_m { margin: 0 -12px; }
+.work .shadow_m { margin-left: -12px; margin-right: -12px; }
 
 .header { padding-top: 25px; position: relative; margin-bottom: 94px; }
 .header .header__title { font-size: 22px; font-weight: 500; color: #000; text-decoration: none; display: inline-block; margin-right: 170px; vertical-align: baseline; }
@@ -116,6 +116,12 @@ a:visited { color: #aa0bcc; }
 .units__wrp { margin: 0 -10px; font-size: 0; }
 .units .unit { width: 50%; padding: 5px; margin: 0; display: inline-block; }
 .units .unit img { height: auto; width: 100%; }
+
+.patterns { max-width: 860px; font-size: 0; overflow: hidden; }
+.patterns__wrp { margin: 43px -43px -50px 0; }
+.patterns figure { display: inline-block; width: 50%; vertical-align: middle; padding-right: 43px; margin: 0 0 50px; }
+.patterns figure img { width: 100%; }
+.patterns figure figcaption { font-style: italic; font-size: 13px; color: #939393; line-height: 1; display: block; margin-top: 7px; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 @media only screen and (max-width: 1480px){
