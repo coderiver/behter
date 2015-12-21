@@ -1,232 +1,241 @@
 // Normally mainpage styles
 .out
-	max-width: 1400px 
-	margin: 0 auto 
+	max-width: 1400px
+	margin: 0 auto
 	padding-bottom: 14px
-	+r(1400)
-		margin: 0 20px 
-		
+	+r(1480)
+		margin: 0 40px
+	+r(800)
+		margin: 0 20px
+
 .totop
-	font-size: 13px 
-	color: #094ca1 
+	font-size: 13px
+	color: #094ca1
 	text-decoration: none
-	margin-top: 108px 
+	margin-top: 108px
 	display: block
+	&:visited
+		color: #094ca1
 	+r(600)
-		margin-top: 40px 
+		margin-top: 40px
 	i
 		+s(arrowtop)
 		display: inline-block
-		margin-right: 6px 
+		margin-right: 6px
 .footer
-	border-top: 1px solid #dadcdd 
-	border-bottom: 1px solid #dadcdd 
-	padding: 11px 0 
-	margin-top: 30px 
+	border-top: 1px solid #dadcdd
+	border-bottom: 1px solid #dadcdd
+	padding: 11px 0
+	margin-top: 30px
 	+clr
 	.footer__copy
 		float: left
-		font-size: 13px 
-		color: #000000 
+		font-size: 13px
+		color: #000000
 		+r(750)
 			text-align: left
 			float: none
-			margin-bottom: 5px 
+			margin-bottom: 5px
 	a
 		float: right
 		text-decoration: none
-		font-size: 13px 
-		color: #000 
+		font-size: 13px
+		color: #000
 		position: relative
-		margin-left: 60px 
+		margin-left: 60px
 		display: block
+		&:visited
+			color: #000
 		+r(750)
 			float: none
 			margin: 0 0 5px 20px
 		&:before
-			content: "" 
+			content: ""
 			position: absolute
-			left: -20px 
+			left: -20px
 			top: 0
-			+s(skype) 
+			+s(skype)
 	.footer__skype
-		margin-left: 70px 
+		margin-left: 70px
 		+r(750)
-			margin-left: 20px 
+			margin-left: 20px
 		&:before
 			+s(skype)
-			left: -18px 
-			top: 2px 
+			left: -18px
+			top: 2px
 	.footer__phone
 
 		&:before
 			+s(phone)
-			left: -18px 
-			top: 1px 
+			left: -18px
+			top: 1px
 	.footer__email
 		+r(750)
-			margin-left: 22px 
+			margin-left: 22px
 		&:before
 			+s(mail)
 			top: 3px
-			left: -21px  
+			left: -21px
 
 .work
-	font-size: 15px 
+	font-size: 15px
 	h1
 		font-size: 300
 		font-weight: bold
-		margin-bottom: 6px  
+		margin-bottom: 6px
 	figure
-		margin-top: 42px 
+		margin-top: 42px
 		img
-			max-width: 100% 
+			max-width: 100%
 			display: block
 
 .header
-	padding-top: 25px 
+	padding-top: 25px
 	position: relative
-	margin-bottom: 94px 
+	margin-bottom: 94px
 	+r(600)
-		margin-bottom: 40px 
+		margin-bottom: 40px
 	.header__title
-		font-size: 22px 
-		font-weight: 500 
-		color: #094ca1 
+		font-size: 22px
+		font-weight: 500
+		color: #000
 		text-decoration: none
 		display: inline-block
-		margin-right: 170px 
+		margin-right: 170px
 		vertical-align: baseline
+	a.header__title
+		color: #094ca1
 	.header__lang
 		position: absolute
 		bottom: 2px
-		right: 0  
-		font-size: 13px 
-		color: #bdbdbd 
+		right: 0
+		font-size: 13px
+		color: #bdbdbd
 		a
-			font-size: 13px 
-			color: #bdbdbd 
+			font-size: 13px
+			color: #bdbdbd
 			text-decoration: none
 			margin: 0 3px
 	nav
-		font-size: 0 
+		font-size: 0
 		display: inline-block
 		vertical-align: baseline
 		+r(600)
 			display: block
-			margin-top: 10px 
+			margin-top: 10px
 		a,i
 			text-decoration: none
 			font-style: normal
-			color: #094ca1 
-			font-size: 14px 
+			color: #094ca1
+			font-size: 14px
 			&:hover
-				text-decoration: underline
+				// text-decoration: underline
 			&:first-child
-				margin-right: 40px 
-		i:hover
+				margin-right: 40px
+		i:hover,i
 			text-decoration: none
+			color: #000
 		.nav__separator
-			font-size: 14px 
-			color: #094ca1 
+			font-size: 14px
+			color: #094ca1
 			margin: 0 3px
 
 .content
 	+clr
 .content__left
-	width: 46% 
+	width: 46%
 	float: left
-	margin-right: 12% 
+	margin-right: 12%
 	+r(700)
 		width: auto
 		float: none
 .content__right
 	float: left
-	width: 210px 
+	width: 210px
 	+r(700)
 		width: auto
 		float: none
-		margin-top: 50px 
+		margin-top: 50px
 
 .about
-	font-size: 14px 
-	line-height: 21px 
+	font-size: 14px
+	line-height: 21px
 	text-align: left
 	a
 		text-decoration: none
-		color: #000 
+		color: #000
 		&:hover
 			text-decoration: underline
 	&__photo
-		margin-bottom: 18px 
+		margin-bottom: 18px
 	.about__leading
-		margin-bottom: 38px 
+		margin-bottom: 38px
 		line-height: 24px
-		font-size: 16px  
+		font-size: 16px
 		a
 			font-weight: 500
-			color: #084798  
+			color: #084798
 			text-decoration: none
 			display: block
 .homepage
-	margin-top: -20px 
-	padding-bottom: 58px 
+	margin-top: -20px
+	padding-bottom: 58px
 	+r(600)
-		padding-bottom: 20px 
+		padding-bottom: 20px
 	h1
-		font-size: 36px 
-		line-height: 42px 
+		font-size: 36px
+		line-height: 42px
 		font-weight: bold
-		color: #111111 
-		margin-bottom: 10px 
+		color: #111111
+		margin-bottom: 10px
 	p
-		font-size: 18px 
-		font-style: italic 
-		line-height: 24px 
-		margin-bottom: 45px 
+		font-size: 18px
+		font-style: italic
+		line-height: 24px
+		margin-bottom: 45px
 .list
 	font-size: 0
-	max-width: 1100px 
+	max-width: 1400px
 	+r(600)
 		text-align: center
 .item
 	display: inline-block
-	width: 200px 
-	margin-right: 55px 
+	width: 200px
+	margin-right: 55px
 	text-align: center
 	text-decoration: none
-	margin-bottom: 60px 
+	margin-bottom: 60px
 	+r(600)
-		margin-bottom: 20px 
+		margin-bottom: 20px
 	.item__pic
-		margin-bottom: 15px 
+		margin-bottom: 15px
 	.item__title
-		color: #094ca1 
+		color: #094ca1
 		text-decoration: none
-		font-size: 14px 
-		margin-bottom: 3px 
+		font-size: 14px
+		margin-bottom: 3px
 	.item__type
-		font-size: 12px 
-		color: #bdbdbd 
+		font-size: 12px
+		color: #bdbdbd
 		font-style: italic
 	+r(600)
-		margin-right: 0 
+		margin-right: 0
 .text
-	font-size: 16px 
-	color: #000000 
-	line-height: 24px 
-	margin-top: -10px 
+	font-size: 16px
+	color: #000000
+	line-height: 24px
+	margin-top: -10px
 	a
-		color: #084798 
+		color: #084798
 		text-decoration: none
 	p
-		margin-bottom: 1.5em 
+		margin-bottom: 1.5em
 	h2
-		margin-top: 76px 
-		margin-bottom: 5px 
+		margin-top: 76px
+		margin-bottom: 5px
 	h1
-		font-size: 36px 
-		margin-bottom: 52px 
-		line-height: 42px 
+		font-size: 36px
+		margin-bottom: 52px
+		line-height: 42px
 		font-weight: bold
-		color: #111111 
+		color: #111111
