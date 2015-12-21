@@ -83,7 +83,7 @@ a:visited { color: #aa0bcc; }
 .content { *zoom: 1; }
 .content:after { content: " "; display: table; clear: both; }
 
-.content__left { width: 46%; float: left; margin-right: 12%; }
+.content__left { width: 46%; float: left; margin-right: 12%; padding-bottom: 30px; }
 
 .content__right { float: left; width: 210px; }
 
@@ -105,8 +105,9 @@ a:visited { color: #aa0bcc; }
 .list { font-size: 0; max-width: 1400px; }
 
 .item { display: inline-block; width: 200px; margin-right: 60px; text-align: center; text-decoration: none; margin-bottom: 63px; }
+.item:visited .item__title { color: #aa0bcc; }
 .item .item__pic { margin-bottom: 15px; }
-.item .item__title { color: #094ca1; text-decoration: none; font-size: 14px; margin-bottom: 3px; }
+.item .item__title { color: #094ca1; text-decoration: none; font-size: 14px; margin-bottom: 3px; font-weight: normal; }
 .item .item__type { font-size: 12px; color: #bdbdbd; font-style: italic; }
 
 .text { font-size: 16px; color: #000000; line-height: 24px; margin-top: -10px; }
